@@ -1,4 +1,4 @@
-from sqlalchemy.orm import Session
+from typing import Any as Session
 from app.models.atleta import Atleta
 from app.schemas.atleta import AtletaCreate
 
